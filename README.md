@@ -62,21 +62,26 @@ Output:
 
 Import this Notebook
 Download and open the provided notebook in your Python environment (e.g., Jupyter Notebook, Google Colab).
+
 Install Required Dependencies
 Run the following command in your environment to install the necessary libraries:
 pip install langchain sentence-transformers groq
+
 Import PDF and Add File Path
 Update the file path to your PDF document in the command below:
 loader = PyPDFLoader("/content/MachineLearning-Lecture01.pdf")
 pages = loader.load()
+
 Follow the Flow
 Execute the commands below in the same order as outlined in the notebook:
-Load Document: Load the PDF or document.
-Create Chunks: Use a text splitter to divide the document into manageable parts.
-Generate Embeddings: Convert document chunks into vector embeddings.
-Save in Vector DB: Store the embeddings in a vector database.
-Chat with LLM: Interact with the chatbot using the LLM and retrieval system.
-Adjust Accordingly
+1. Load Document: Load the PDF or document.
+2. Create Chunks: Use a text splitter to divide the document into manageable parts.
+3. Generate Embeddings: Convert document chunks into vector embeddings.
+4. Save in Vector DB: Store the embeddings in a vector database.
+5. Chat with LLM: Interact with the chatbot using the LLM and retrieval system.
+6. Adjust Accordingly
 You can replace the embedding model (e.g., use sentence-transformers/all-MiniLM-L6-v2) or the LLM (e.g., different LLaMA versions), but the workflow remains the same.
 
+
+Happy Chatting!!!
 
