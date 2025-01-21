@@ -1,4 +1,4 @@
-Data Chat with LangChain
+## Data Chat with LangChain
 
 This project demonstrates a retrieval-augmented generation (RAG) workflow using LangChain and a Large Language Model (LLM). The goal is to build a chatbot capable of answering questions from a set of documents by leveraging embeddings and a vector database for efficient retrieval.
 
